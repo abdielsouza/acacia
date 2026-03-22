@@ -115,6 +115,12 @@ int main() {
 }
 ```
 
+## C API
+
+A versão C da biblioteca está disponível via `include/acacia/c_api.h` e é exportada pela mesma biblioteca `libacacia`.
+
+Ele fornece uma interface C simples (com tratamento básico de erros) para modelos como regressão linear, permitindo criar bindings para outras linguagens.
+
 ## Requirements
 
 - C++23 compatible compiler (GCC 11+, Clang 14+, MSVC 2022+)
